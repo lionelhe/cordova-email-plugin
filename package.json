@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-email",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "Cordova Email Plugin",
   "scripts": {
     "clean": "rm -rf tmp && mkdir -p tmp",
@@ -42,7 +42,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hypery2k/cordova-email-plugin.git"
+    "url": "git+https://github.com/hypery2k/cordova-email-plugin.git"
   },
   "keywords": [
     "cordova",
@@ -55,5 +55,13 @@
     "cordova-windows"
   ],
   "author": "Martin Reinhardt",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hypery2k/cordova-email-plugin/issues"
+  },
+  "homepage": "https://github.com/hypery2k/cordova-email-plugin#readme",
+  "main": "www/email_composer.js",
+  "directories": {
+    "test": "tests"
+  }
 }
